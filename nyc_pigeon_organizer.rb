@@ -1,6 +1,5 @@
 def nyc_pigeon_organizer(pd)
   org_pigs = {}
-  t_and_a = build_t_a_lookup(pd)
   pd.each_pair do |trait, attrib|
     attrib.each_pair do |value, name_array|
       name_array.each do |name|
