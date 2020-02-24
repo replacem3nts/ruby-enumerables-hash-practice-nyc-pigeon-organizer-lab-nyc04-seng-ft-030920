@@ -14,5 +14,5 @@ def nyc_pigeon_organizer(pd)
       end
     end
   end
-  p org_pigs
+  puts org_pigs
 end
